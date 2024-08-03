@@ -14,8 +14,8 @@ const Header = () => {
     
     </>
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className="bg-slate-100 rounded-xl ">
+            <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ const Header = () => {
         {links}
       </ul>
     </div>
-    <a className="text-xl btn btn-ghost">daisyUI</a>
+    <a className=" btn btn-ghost text-5xl">Career Hub</a>
   </div>
   <div className="hidden navbar-center lg:flex">
     <ul className="px-1 menu menu-horizontal">
@@ -46,9 +46,9 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn">Apply Now</a>
   </div>
-</div>
+            </div>
         </div>
     );
 };

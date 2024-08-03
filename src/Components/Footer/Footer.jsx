@@ -2,8 +2,9 @@
 
 const Footer = () => {
     return (
-        <footer className="p-10 rounded footer footer-center bg-base-200 text-base-content">
-  <nav className="grid grid-flow-col gap-4">
+        <footer className="p-10  bg-neutral-700 text-base-content mt-16 rounded">
+  <div className="footer footer-center max-w-7xl mx-auto text-neutral-50">
+  <nav className="grid grid-flow-col gap-4 ">
     <a className="link link-hover">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
@@ -49,6 +50,7 @@ const Footer = () => {
   <aside>
     <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
   </aside>
+  </div>
 </footer>
     );
 };
